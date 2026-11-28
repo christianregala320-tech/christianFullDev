@@ -1,5 +1,6 @@
 
 import profileImage from "../assets/profile.jpg";
+import { Link } from "react-router-dom";
 
 
 
@@ -10,19 +11,25 @@ function mainContent() {
         <div className="p-4 flex flex-col md:flex-row justify-center items-center max-h-150 mt-8">
             <div className=" motion-safe:animate-fade-in flex flex-col gap-2 p-2">
                 <h1 className=" text-white font-raleway text-4xl font-bold">Christian Regala</h1>
-                <p className="inline-block w-0 overflow-hidden whitespace-nowrap border-r-2 border-green-500 font-mono text-sm text-green-500 motion-safe:animate-typing">Full Stack Developer | Turning Ideas Into Powerful Digital Experiences</p>
+                <p className="inline-block self-start overflow-hidden whitespace-nowrap border-r-2 border-green-500 font-mono text-sm text-green-500 motion-safe:w-0 motion-safe:animate-typing">Full Stack Developer, Video Editor</p>
                 <p className=" font-plex text-xs text-[#9C9C9C]">
-                    I build modern, responsive, and high-performing websites 
+                   I blend code and creativity to build modern websites, 
+                   <br/>
+                   develop functional applications, and craft 
                     <br/>
-                    and web applications that help businesses stand out and grow. 
+                    engaging visual stories through video editing.
                     <br/>
-                    From beautiful, user-friendly interfaces to reliable backend systems, 
+                     My goal is to create digital experiences that are both 
                     <br/>
-                    I turn your ideas into seamless digital solutions.
+                    visually compelling and purposeful.
+                    <br/>
+                   
                 </p>
 
                 <div className="w-full flex justify-center items-center md:justify-start">
+                    <Link to="/aboutMe">
                     <button className="rounded-md bg-[#3F8E00] px-10 py-4 font-plex font-bold text-white shadow-[0_0_25px_rgba(63,142,0,0.5)] transition-all duration-300 hover:shadow-[0_0_40px_rgba(63,142,0,0.8)]">Lets get started </button>
+                    </Link>
                 </div>
             </div>
 

@@ -34,7 +34,7 @@ function AboutMe() {
 
                     </div>
 
-                    <div className="flex flex-row gap-3">
+                    <div className=" flex flex-col md:flex md:flex-row gap-3">
                         <div className="py-3 px-9 flex justify-center a items-center rounded-lg bg-[#18221B]">
                             <p className="text-white text-xs font-plex">RESPONSIVE U.I</p>
                         </div>
@@ -64,7 +64,7 @@ function AboutMe() {
             </header>
 
 
-            <div className=" flex flex-col justify-center items-center md:flex-1  md:flex md:flex-row md:items-center md:justify-center md:p-8 ">
+            <div className=" flex flex-col gap-9 justify-center items-center p-8  md:flex-1  md:flex md:flex-row md:items-center md:justify-center md:p-8 ">
                 <div className="flex">
                     <div className="flex justify-start flex-col">
                         <div className="flex flex-row justify-start items-center gap-4">
@@ -121,7 +121,7 @@ function AboutMe() {
 
 
                 <div className=" mt-5 md:mt-0 md:self-start">
-                    <div className="bg-[#101511] flex flex-col min-h-95 min-w-90 border rounded-2xl border-[#243729]">
+                    <div className="motion-safe:animate-fade-in bg-[#101511] flex flex-col min-h-95 min-w-90 border rounded-2xl border-[#243729]">
                         <header className="flex justify-between w-full p-4 bg-[#18221B] border rounded-t-2xl">
 
                             <div className="flex flex-row gap-3">

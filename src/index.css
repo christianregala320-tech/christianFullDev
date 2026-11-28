@@ -27,7 +27,7 @@
 }
 
 @theme {
-  --animate-typing: typing 3s steps(20, end) forwards;
+  --animate-typing: typing 3s steps(34, end) forwards;
 
   @keyframes typing {
     from {
@@ -35,7 +35,7 @@
     }
 
     to {
-      width: 20ch;
+      width: 34ch;
     }
   }
 }
